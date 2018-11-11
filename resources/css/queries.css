@@ -1,0 +1,95 @@
+@media screen and (max-width: 1024px){
+  .test {
+    display: none;
+  }
+
+  .whole-body{
+    height: 210vh;
+  }
+
+  nav{
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+
+  .navbar-menu{
+    background-color: #cc332f;
+    width: 250px;
+    
+  }
+
+  .navbar-menu.is-active{
+    position: absolute;
+    right: 0px;
+    background-color: #cc332f;
+  }
+
+  .contact-us{
+    bottom: 0;
+  }
+
+  .introduce-text{
+    font-size: 12px;
+  }
+
+  .about-us-title{
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 768px){
+
+  .whole-body{
+    height: 360vh;
+  }
+
+  .about-us-item{
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .contact-detail{
+    font-size: 18px;
+  }
+
+  /* ================= FORM ===================== */
+  .register-form{
+    width: 80%;
+    margin-bottom: 50px;
+    height: 410px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .form-group {
+    flex-direction: column;
+  }
+  .form-group .input-control {
+    margin-top: 2px;
+  }
+  .form-group label.right-inline {
+    text-align: left;  
+    padding-right: 0;
+    padding-left: 0;   
+  }
+
+  .schedule{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+}
+
+@media screen and (max-width: 480px) {
+  .whole-body{
+    height: 350vh;
+  }
+
+  .about-us-title{
+    font-size: 10px;
+  }
+}
+

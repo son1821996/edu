@@ -1,0 +1,228 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+    font-family: 'Lato', 'Arial', sans-serif;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+    position: relative;
+}
+
+/* ============== HEADER =================== */
+header{
+  background-color:  rgb(86, 193, 255);
+  height: 300px;
+  padding: 20px;
+}
+
+header img {
+  width: 300px;
+}
+
+/* =================== WHOLE BODY ================= */
+.whole-body{
+  padding: 50px 0;
+  background-image:linear-gradient(rgba(241, 236, 236, 0.7), rgba(255, 247, 247, 0.7)), url(/resources/img/Background-01.png);
+  height: 280vh;
+  background-position: center;
+  background-size: cover;
+  
+}
+
+/* ============== NAVBAR =================== */
+.navbar-menu{
+  background-color: #cc332f;
+}
+nav img{
+  width: 30px;
+  height: 30px;
+}
+
+ul.navigation{
+  padding: 20px 3px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  border: 2px dashed #ffffff;
+  display: inline-block
+}
+
+ul.navigation li{
+  margin-left: 30px;
+  display: inline-block;
+  color: #ffffff;
+  
+}
+
+ul.navigation li a{
+  color: #ffffff;
+  transition: color .2s;
+  font-family: 'Lobster', cursive;
+  font-style: italic;
+  display: flex;
+}
+
+nav a:hover{
+  color: steelblue;
+}
+
+.navbar-item.is-active .navbar-dropdown, .navbar-item.is-hoverable:hover .navbar-dropdown{
+  background-color: #cc332f;
+}
+
+/* ===================== INTRODUCE ====================== */
+
+.introduce{
+  background-color: #aae4fb;
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+}
+
+.introduce-text{
+  background-color: #7fd1ed;
+  font-weight: bold;
+  padding: 15px;
+}
+
+.introduce-text img{
+  width: 400px;
+  float: right;
+}
+
+.about-us-item{
+  position: relative;
+}
+
+
+.about-us-title{
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* ================== REGISTER FORM =================== */
+.register-form{
+  background-color: #69bf92;
+  margin-left: 30px;
+  width: 50%;
+  padding-bottom: 30px;
+  opacity: 0.9;
+  position: relative;
+  height: 350px;;
+}
+
+.register-form h2{
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  padding-top: 20px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: row;
+  padding: 10px 10px
+}
+
+.form-group label {
+  flex: none;
+  display: block;
+  width: 200px;
+  font-weight: bold;
+  font-size: 1em;
+  text-align: right;
+  margin-right: 10px;
+}
+.form-group label.right-inline {
+  text-align: right;  
+  padding-right: 8px;
+  padding-left: 10px;
+  width: auto;
+}
+
+.form-group .input-control {
+  flex: 1 1 auto;
+  display: block;
+  margin-bottom: 10px;
+  margin-right: 8px;
+  padding: 4px;
+  margin-top: -4px;
+}
+
+a.register-button {
+  padding: 5px 15px;
+  margin: 5px;
+  min-width: 100px;
+  right: 0;
+  position: absolute;
+  right: 5%;
+  background-color: #29abe2;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 30px;
+  transition: all .2s;
+}
+
+a.register-button:hover{
+  color: aqua;
+  transform: scale(1.2);
+}
+
+.schedule{
+  background-color: #69bf92;
+  margin-left: 30px;
+  padding-bottom: 30px;
+  height: 350px;;
+}
+
+.table{
+  overflow-y: auto;
+}
+
+.table tr th{
+  color: #ffffff;
+  text-align: center;
+  font-size: 18px;
+}
+
+.table tr{
+  height: 80px;
+}
+
+.table tr td{
+  font-weight: bold;
+  font-size: 15px;
+  text-align: center;
+}
+
+/* =================================== */
+
+.contact-detail{
+  display: flex;
+}
+
+.contact-detail{
+  font-size: 30px;
+  color: #ffffff;
+}
+
+.address{
+  margin-left: 10%;
+}
+
+.contact-us{
+  background-color: #00676b;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
